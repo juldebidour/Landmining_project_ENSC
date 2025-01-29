@@ -34,7 +34,7 @@ The project is organized into several key directories and files:
 The dataset consists of sensor data collected from landmine detection equipment. It includes features such as sensor readings _(voltage)_, geographical coordinates _(position)_, and labels indicating whether a landmine is present or not. 
 Each dataset is split into training and testing sets for model development and evaluation.
 
-The first dataset used can be found here : [https://universe.roboflow.com/northumbria/landmines-detection-dataset/dataset/4](https://www.kaggle.com/datasets/parsapzadeh/land-mines).
+The first dataset used can be found here : [https://www.kaggle.com/datasets/parsapzadeh/land-mines](https://www.kaggle.com/datasets/parsapzadeh/land-mines).
 
 The second dataset used for yolo can be found here : [https://universe.roboflow.com/northumbria/landmines-detection-dataset/dataset/4](https://universe.roboflow.com/northumbria/landmines-detection-dataset/dataset/4).
 
