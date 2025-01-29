@@ -71,4 +71,4 @@ _--> Usage_
 
 # Acknowledgments
 
-Thanks to the ENSC _(École Nationale Supérieure de Cognitique) _for providing the resources and support for this project.
+Thanks to the ENSC _(École Nationale Supérieure de Cognitique)_ for providing the resources and support for this project.
