@@ -40,13 +40,13 @@ The second dataset used for yolo can be found here : [https://universe.roboflow.
 
 # Methodology
 
-_--> Data Preprocessing : Cleaning and normalizing the sensor data to prepare it for analysis.
+--> Data Preprocessing : Cleaning and normalizing the sensor data to prepare it for analysis.
 
 --> Feature Engineering : Extracting relevant features and reducing dimensionality to improve model performance.
 
 --> Model Training : Training machine learning models, including Random Forest, Support Vector Machines (SVM), and Neural Networks.
   
---> Evaluation : Assessing model performance using metrics such as accuracy, precision, recall, and ROC-AUC._
+--> Evaluation : Assessing model performance using metrics such as accuracy, precision, recall, and ROC-AUC.
 
 # Results
 
@@ -71,4 +71,4 @@ _--> Usage_
 
 # Acknowledgments
 
---> Thanks to the ENSC (École Nationale Supérieure de Cognitique) for providing the resources and support for this project.
+Thanks to the ENSC _(École Nationale Supérieure de Cognitique) _for providing the resources and support for this project.
