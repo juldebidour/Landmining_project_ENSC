@@ -51,3 +51,24 @@ _--> Data Preprocessing : Cleaning and normalizing the sensor data to prepare it
 # Results
 
 The project achieved promising results in landmine detection, with the XG Boost performing particularly well. Detailed evaluation metrics and visualizations, such as ROC curves and confusion matrices, are provided in the Results/ directory.
+
+# Getting Started
+
+_--> Prerequisites_
+
+- Python 3.x
+- Libraries : pandas, numpy, scikit-learn, matplotlib, seaborn
+
+_--> Installation_
+
+- Clone the repository : git clone https://github.com/juldebidour/Landmining_project_ENSC.git
+- Navigate to the project directory : cd Landmining_project_ENSC
+
+_--> Usage_
+
+- Run the Jupyter notebooks in the Notebooks/ directory to explore the data and train models.
+- Use the scripts in the Scripts/ directory for automated data processing and model training.
+
+# Acknowledgments
+
+--> Thanks to the ENSC (École Nationale Supérieure de Cognitique) for providing the resources and support for this project.
