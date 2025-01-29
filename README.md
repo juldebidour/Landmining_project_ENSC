@@ -50,7 +50,7 @@ The second dataset used for yolo can be found here : [https://universe.roboflow.
 
 # Results
 
-The project achieved promising results in landmine detection, with the XG Boost performing particularly well. Detailed evaluation metrics and visualizations, such as ROC curves and confusion matrices, are provided in the Results/ directory.
+The project achieved promising results in landmine detection, with the XG Boost performing particularly well. Detailed evaluation metrics and visualizations, such as ROC curves and confusion matrices, are provided in the different files' outputs.
 
 # Getting Started
 
