@@ -5,4 +5,5 @@ SecondDataset/Landmines_detection_dataset_v4i_yolov8/
 # Ignorer les fichiers spécifiques
 yolo11n.pt
 yolov8n.pt
+yolov8s.pt
 
