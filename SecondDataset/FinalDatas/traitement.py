@@ -1,9 +1,11 @@
+#Ce programme sert uniquement à la génération de graphiques à partir de fichiers csv.
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
 def plot_graphs_for_csv_files(folder_path):
-    """Créer des graphiques pour chaque colonne sauf la première dans les fichiers CSV d'un dossier."""
+    """Créer des graphiques pour chaque colonne dans les fichiers CSV d'un dossier."""
     # Lister tous les fichiers CSV dans le dossier
     for filename in os.listdir(folder_path):
         if filename.lower().endswith(".csv"):  # Protection contre la casse des extensions

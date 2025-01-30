@@ -18,7 +18,7 @@ def train_evaluate_predict(lr_values, batch_sizes):
 
     for lr in lr_values:
         for batch in batch_sizes:
-            experiment_name = f"landmine_lr_{lr}_batch_{batch}_wd00001"
+            experiment_name = f"landmine_lr_{lr}_batch_{batch}"
             print(f"\n🔍 Training with Learning Rate: {lr}, Batch Size: {batch}")
 
             # Étape 1 : Entraîner le modèle
@@ -28,7 +28,6 @@ def train_evaluate_predict(lr_values, batch_sizes):
                 imgsz=640,
                 batch=batch,
                 lr0=lr,  # Appliquer le learning rate
-                weight_decay=0.0001,
                 name=experiment_name
             )
 
@@ -63,8 +62,8 @@ def train_evaluate_predict(lr_values, batch_sizes):
 
 if __name__ == "__main__":
     # Hyperparamètres à tester
-    learning_rates = [0.01]
-    batch_sizes = [16]
+    learning_rates = [0.01,0.001,0.0001]
+    batch_sizes = [8,16,32]
 
     # Lancer les expériences
     train_evaluate_predict(learning_rates, batch_sizes)

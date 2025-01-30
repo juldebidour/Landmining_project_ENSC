@@ -37,6 +37,7 @@ Each dataset is split into training and testing sets for model development and e
 The first dataset used can be found here : [https://www.kaggle.com/datasets/parsapzadeh/land-mines](https://www.kaggle.com/datasets/parsapzadeh/land-mines).
 
 The second dataset used for yolo can be found here : [https://universe.roboflow.com/northumbria/landmines-detection-dataset/dataset/4](https://universe.roboflow.com/northumbria/landmines-detection-dataset/dataset/4).
+You must place the dataset's folder into the "/SecondDataset" folder in order to launch the program.
 
 # Methodology
 
@@ -57,7 +58,7 @@ The project achieved promising results in landmine detection, with the XG Boost 
 _--> Prerequisites_
 
 - Python 3.x
-- Libraries : pandas, numpy, scikit-learn, matplotlib, seaborn
+- Libraries : pandas, numpy, scikit-learn, matplotlib, seaborn, ultralytics
 
 _--> Installation_
 
