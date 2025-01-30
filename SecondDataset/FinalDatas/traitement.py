@@ -41,7 +41,7 @@ def plot_graphs_for_csv_files(folder_path):
                     plt.legend()
                     
                     # Définir les limites des axes des ordonnées (entre 0 et 2)
-                    plt.ylim(0, 1)
+                    plt.ylim(0, 2)
                     
                     # Sauvegarder le graphique dans le dossier avec un nom valide
                     output_path = os.path.join(folder_path, f"{column}_graph.png")
@@ -51,5 +51,5 @@ def plot_graphs_for_csv_files(folder_path):
                 print(f"Erreur lors de la lecture du fichier {filename}: {e}")
 
 # Utilisation
-folder_path = 'c:\\Users\\theob\\Desktop\\AI results'  # Remplace ce chemin par le chemin réel de ton dossier
+folder_path = 'SecondDataset\FinalDatas'  # Remplace ce chemin par le chemin réel de ton dossier
 plot_graphs_for_csv_files(folder_path)
