@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "landmining-project-ensc"
+version = "0.1.0"
+description = ""
+authors = ["Julien"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.24.0"
+pandas = "^2.2.3"
+seaborn = "0.12.2"
+matplotlib = "^3.9.2"
+xgboost = "^2.1.1"
+cleanlab = "^2.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
