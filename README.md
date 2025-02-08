@@ -65,7 +65,7 @@ _--> Installation_
 - Clone the repository : git clone https://github.com/juldebidour/Landmining_project_ENSC.git
 - Navigate to the project directory : cd Landmining_project_ENSC
 
-_--> Usage_
+_--> Use_
 
 - Run the Jupyter notebooks in the Notebooks/ directory to explore the data and train models.
 - Use the scripts in the Scripts/ directory for automated data processing and model training.
